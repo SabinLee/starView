@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9BB7F0A01F4F104600E7E08C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB7F09F1F4F104600E7E08C /* AppDelegate.swift */; };
+		9BB7F0A21F4F104600E7E08C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB7F0A11F4F104600E7E08C /* ViewController.swift */; };
+		9BB7F0A51F4F104600E7E08C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BB7F0A31F4F104600E7E08C /* Main.storyboard */; };
+		9BB7F0A71F4F104600E7E08C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BB7F0A61F4F104600E7E08C /* Assets.xcassets */; };
+		9BB7F0AA1F4F104600E7E08C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BB7F0A81F4F104600E7E08C /* LaunchScreen.storyboard */; };
+		9BB7F0B51F4F104600E7E08C /* StarViewDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB7F0B41F4F104600E7E08C /* StarViewDemoTests.swift */; };
+		9BB7F0C01F4F104600E7E08C /* StarViewDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB7F0BF1F4F104600E7E08C /* StarViewDemoUITests.swift */; };
+		9BB7F0CF1F4F107800E7E08C /* EvaluateStarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB7F0CD1F4F107800E7E08C /* EvaluateStarView.swift */; };
+		9BB7F0D01F4F107800E7E08C /* EvaluateStarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9BB7F0CE1F4F107800E7E08C /* EvaluateStarView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9BB7F0B11F4F104600E7E08C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9BB7F0941F4F104600E7E08C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9BB7F09B1F4F104600E7E08C;
+			remoteInfo = StarViewDemo;
+		};
+		9BB7F0BC1F4F104600E7E08C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9BB7F0941F4F104600E7E08C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9BB7F09B1F4F104600E7E08C;
+			remoteInfo = StarViewDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9BB7F09C1F4F104600E7E08C /* StarViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BB7F09F1F4F104600E7E08C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9BB7F0A11F4F104600E7E08C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9BB7F0A41F4F104600E7E08C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9BB7F0A61F4F104600E7E08C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9BB7F0A91F4F104600E7E08C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9BB7F0AB1F4F104600E7E08C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BB7F0B01F4F104600E7E08C /* StarViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StarViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BB7F0B41F4F104600E7E08C /* StarViewDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarViewDemoTests.swift; sourceTree = "<group>"; };
+		9BB7F0B61F4F104600E7E08C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BB7F0BB1F4F104600E7E08C /* StarViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StarViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BB7F0BF1F4F104600E7E08C /* StarViewDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarViewDemoUITests.swift; sourceTree = "<group>"; };
+		9BB7F0C11F4F104600E7E08C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BB7F0CD1F4F107800E7E08C /* EvaluateStarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EvaluateStarView.swift; sourceTree = "<group>"; };
+		9BB7F0CE1F4F107800E7E08C /* EvaluateStarView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EvaluateStarView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9BB7F0991F4F104600E7E08C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BB7F0AD1F4F104600E7E08C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BB7F0B81F4F104600E7E08C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9BB7F0931F4F104600E7E08C = {
+			isa = PBXGroup;
+			children = (
+				9BB7F09E1F4F104600E7E08C /* StarViewDemo */,
+				9BB7F0B31F4F104600E7E08C /* StarViewDemoTests */,
+				9BB7F0BE1F4F104600E7E08C /* StarViewDemoUITests */,
+				9BB7F09D1F4F104600E7E08C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9BB7F09D1F4F104600E7E08C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9BB7F09C1F4F104600E7E08C /* StarViewDemo.app */,
+				9BB7F0B01F4F104600E7E08C /* StarViewDemoTests.xctest */,
+				9BB7F0BB1F4F104600E7E08C /* StarViewDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9BB7F09E1F4F104600E7E08C /* StarViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				9BB7F0CD1F4F107800E7E08C /* EvaluateStarView.swift */,
+				9BB7F0CE1F4F107800E7E08C /* EvaluateStarView.xib */,
+				9BB7F09F1F4F104600E7E08C /* AppDelegate.swift */,
+				9BB7F0A11F4F104600E7E08C /* ViewController.swift */,
+				9BB7F0A31F4F104600E7E08C /* Main.storyboard */,
+				9BB7F0A61F4F104600E7E08C /* Assets.xcassets */,
+				9BB7F0A81F4F104600E7E08C /* LaunchScreen.storyboard */,
+				9BB7F0AB1F4F104600E7E08C /* Info.plist */,
+			);
+			path = StarViewDemo;
+			sourceTree = "<group>";
+		};
+		9BB7F0B31F4F104600E7E08C /* StarViewDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				9BB7F0B41F4F104600E7E08C /* StarViewDemoTests.swift */,
+				9BB7F0B61F4F104600E7E08C /* Info.plist */,
+			);
+			path = StarViewDemoTests;
+			sourceTree = "<group>";
+		};
+		9BB7F0BE1F4F104600E7E08C /* StarViewDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9BB7F0BF1F4F104600E7E08C /* StarViewDemoUITests.swift */,
+				9BB7F0C11F4F104600E7E08C /* Info.plist */,
+			);
+			path = StarViewDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9BB7F09B1F4F104600E7E08C /* StarViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BB7F0C41F4F104600E7E08C /* Build configuration list for PBXNativeTarget "StarViewDemo" */;
+			buildPhases = (
+				9BB7F0981F4F104600E7E08C /* Sources */,
+				9BB7F0991F4F104600E7E08C /* Frameworks */,
+				9BB7F09A1F4F104600E7E08C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StarViewDemo;
+			productName = StarViewDemo;
+			productReference = 9BB7F09C1F4F104600E7E08C /* StarViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9BB7F0AF1F4F104600E7E08C /* StarViewDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BB7F0C71F4F104600E7E08C /* Build configuration list for PBXNativeTarget "StarViewDemoTests" */;
+			buildPhases = (
+				9BB7F0AC1F4F104600E7E08C /* Sources */,
+				9BB7F0AD1F4F104600E7E08C /* Frameworks */,
+				9BB7F0AE1F4F104600E7E08C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9BB7F0B21F4F104600E7E08C /* PBXTargetDependency */,
+			);
+			name = StarViewDemoTests;
+			productName = StarViewDemoTests;
+			productReference = 9BB7F0B01F4F104600E7E08C /* StarViewDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9BB7F0BA1F4F104600E7E08C /* StarViewDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BB7F0CA1F4F104600E7E08C /* Build configuration list for PBXNativeTarget "StarViewDemoUITests" */;
+			buildPhases = (
+				9BB7F0B71F4F104600E7E08C /* Sources */,
+				9BB7F0B81F4F104600E7E08C /* Frameworks */,
+				9BB7F0B91F4F104600E7E08C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9BB7F0BD1F4F104600E7E08C /* PBXTargetDependency */,
+			);
+			name = StarViewDemoUITests;
+			productName = StarViewDemoUITests;
+			productReference = 9BB7F0BB1F4F104600E7E08C /* StarViewDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9BB7F0941F4F104600E7E08C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Lee;
+				TargetAttributes = {
+					9BB7F09B1F4F104600E7E08C = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					9BB7F0AF1F4F104600E7E08C = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9BB7F09B1F4F104600E7E08C;
+					};
+					9BB7F0BA1F4F104600E7E08C = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9BB7F09B1F4F104600E7E08C;
+					};
+				};
+			};
+			buildConfigurationList = 9BB7F0971F4F104600E7E08C /* Build configuration list for PBXProject "StarViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9BB7F0931F4F104600E7E08C;
+			productRefGroup = 9BB7F09D1F4F104600E7E08C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9BB7F09B1F4F104600E7E08C /* StarViewDemo */,
+				9BB7F0AF1F4F104600E7E08C /* StarViewDemoTests */,
+				9BB7F0BA1F4F104600E7E08C /* StarViewDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9BB7F09A1F4F104600E7E08C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BB7F0AA1F4F104600E7E08C /* LaunchScreen.storyboard in Resources */,
+				9BB7F0D01F4F107800E7E08C /* EvaluateStarView.xib in Resources */,
+				9BB7F0A71F4F104600E7E08C /* Assets.xcassets in Resources */,
+				9BB7F0A51F4F104600E7E08C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BB7F0AE1F4F104600E7E08C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BB7F0B91F4F104600E7E08C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9BB7F0981F4F104600E7E08C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BB7F0A21F4F104600E7E08C /* ViewController.swift in Sources */,
+				9BB7F0A01F4F104600E7E08C /* AppDelegate.swift in Sources */,
+				9BB7F0CF1F4F107800E7E08C /* EvaluateStarView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BB7F0AC1F4F104600E7E08C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BB7F0B51F4F104600E7E08C /* StarViewDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BB7F0B71F4F104600E7E08C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BB7F0C01F4F104600E7E08C /* StarViewDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9BB7F0B21F4F104600E7E08C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9BB7F09B1F4F104600E7E08C /* StarViewDemo */;
+			targetProxy = 9BB7F0B11F4F104600E7E08C /* PBXContainerItemProxy */;
+		};
+		9BB7F0BD1F4F104600E7E08C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9BB7F09B1F4F104600E7E08C /* StarViewDemo */;
+			targetProxy = 9BB7F0BC1F4F104600E7E08C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9BB7F0A31F4F104600E7E08C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9BB7F0A41F4F104600E7E08C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9BB7F0A81F4F104600E7E08C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9BB7F0A91F4F104600E7E08C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9BB7F0C21F4F104600E7E08C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9BB7F0C31F4F104600E7E08C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9BB7F0C51F4F104600E7E08C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = StarViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = leeapp.com.StarViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		9BB7F0C61F4F104600E7E08C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = StarViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = leeapp.com.StarViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		9BB7F0C81F4F104600E7E08C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = StarViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = leeapp.com.StarViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StarViewDemo.app/StarViewDemo";
+			};
+			name = Debug;
+		};
+		9BB7F0C91F4F104600E7E08C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = StarViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = leeapp.com.StarViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StarViewDemo.app/StarViewDemo";
+			};
+			name = Release;
+		};
+		9BB7F0CB1F4F104600E7E08C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = StarViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = leeapp.com.StarViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = StarViewDemo;
+			};
+			name = Debug;
+		};
+		9BB7F0CC1F4F104600E7E08C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = StarViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = leeapp.com.StarViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = StarViewDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9BB7F0971F4F104600E7E08C /* Build configuration list for PBXProject "StarViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BB7F0C21F4F104600E7E08C /* Debug */,
+				9BB7F0C31F4F104600E7E08C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BB7F0C41F4F104600E7E08C /* Build configuration list for PBXNativeTarget "StarViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BB7F0C51F4F104600E7E08C /* Debug */,
+				9BB7F0C61F4F104600E7E08C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9BB7F0C71F4F104600E7E08C /* Build configuration list for PBXNativeTarget "StarViewDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BB7F0C81F4F104600E7E08C /* Debug */,
+				9BB7F0C91F4F104600E7E08C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9BB7F0CA1F4F104600E7E08C /* Build configuration list for PBXNativeTarget "StarViewDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BB7F0CB1F4F104600E7E08C /* Debug */,
+				9BB7F0CC1F4F104600E7E08C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9BB7F0941F4F104600E7E08C /* Project object */;
+}
